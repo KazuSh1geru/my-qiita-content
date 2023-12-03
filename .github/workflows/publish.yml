@@ -3,8 +3,7 @@ name: Publish articles
 on:
   push:
     branches:
-      - 'new/*'
-      - 'update/*'
+      - main
   workflow_dispatch:
 
 permissions:
@@ -16,6 +15,8 @@ concurrency:
 
 jobs:
   publish_articles:
+    # update, new以外はpublishしない
+    if: contains(github.event.head_commit.message, 'new/') || contains(github.event.head_commit.message, 'update/')
     runs-on: ubuntu-latest
     timeout-minutes: 5
     steps:
