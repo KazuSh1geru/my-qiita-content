@@ -1,10 +1,10 @@
-# Please set 'QIITA_TOKEN' secret to your repository
 name: Publish articles
 
 on:
   push:
     branches:
-      - main
+      - 'new/*'
+      - 'update/*'
   workflow_dispatch:
 
 permissions:
