@@ -10,8 +10,7 @@ slide: false
 ignorePublish: false
 ---
 # これは何か？
-GCPのCLI `gcloud` コマンド: 必須チートシートを翻訳したものです。
-[原文](https://cloud.google.com/sdk/gcloud/reference/cheat-sheet)
+GCPのCLI `gcloud` コマンド: 必須チートシートを翻訳したものです。[原文](https://cloud.google.com/sdk/gcloud/reference/cheat-sheet)
 
 Google Cloud Platform（GCP）は、その広範なサービスと機能により、クラウドコンピューティングの世界で欠かせない存在です。
 これらのサービスを効率的に利用するためには、GCPのコマンドラインインターフェース（CLI）ツールである `gcloud` の理解が不可欠です。
