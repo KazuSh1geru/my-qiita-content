@@ -1,7 +1,7 @@
 ---
 title: gcloud cheetsheet必須チートシート
 tags:
-  - ''
+  - 'gcp'
 private: false
 updated_at: ''
 id: null
