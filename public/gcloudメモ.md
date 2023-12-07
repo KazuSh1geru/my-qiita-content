@@ -1,5 +1,5 @@
 ---
-title: gcloud cheetsheet必須チートシート
+title: gcloudチートシート
 tags:
   - googlecloud
 private: false
