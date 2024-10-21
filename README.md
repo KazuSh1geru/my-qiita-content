@@ -1,10 +1,11 @@
 # my-qiita-content
 
-
 ## はじめに
+
 Qiitaの記事を管理するためのリポジトリです。
 
 ## ブランチの命名規則
+
 - main
   - リリース用ブランチ
 - new/*
@@ -15,6 +16,7 @@ Qiitaの記事を管理するためのリポジトリです。
 ## qiita cli
 
 ### よく使うコマンド
+
 ```
 # プレビュー
 npx qiita preview
@@ -25,6 +27,7 @@ npx qiita publish --all
 ```
 
 ### ヘルプ
+
 ```
 USAGE:
 qiita <COMMAND> [<OPTIONS>]
