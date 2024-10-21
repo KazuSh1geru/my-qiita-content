@@ -630,7 +630,7 @@ class HomemakingPartner(Partner):
 marriage = Marriage(WorkingPartner(), HomemakingPartner())
 # または
 marriage = Marriage(WorkingPartner(), WorkingPartner())
-````
+```
 
 この設計では、結婚生活が特定の役割分担に依存せず、両パートナーの貢献という抽象的な概念に依存しています。これにより、状況の変化に柔軟に対応できます。
 
@@ -686,7 +686,7 @@ class FlexiblePartner(Partner):
 
 # 両パートナーが柔軟に貢献
 marriage = Marriage(FlexiblePartner(), FlexiblePartner())
-````
+```
 
 このように、具体的な役割に依存せず、両パートナーが状況に応じて柔軟に貢献できる関係を築くことで、より強固で適応力のある結婚生活を実現できます。
 
