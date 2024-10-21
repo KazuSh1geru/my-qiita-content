@@ -250,7 +250,7 @@ make_bird_fly(sparrow)  # 出力: 鳥が飛んでいます
 # アンチパターンの例
 penguin = Penguin()
 make_bird_fly(penguin)  # 例外発生: ペンギンは飛べません！
-````
+```
 
 この例では、`Penguin`クラスが`Bird`クラスを継承していますが、`fly`メソッドの振る舞いが大きく異なります。`make_bird_fly`関数は全ての鳥が飛べることを前提としているため、`Penguin`オブジェクトを渡すと予期せぬエラーが発生します。
 
